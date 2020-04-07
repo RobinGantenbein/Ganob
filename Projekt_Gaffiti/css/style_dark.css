@@ -1,0 +1,188 @@
+.nav{
+    height: 100px;
+    width: 99%;
+    background-color: #181717e6;
+    float: left;
+    border-bottom: 1%;
+    border-top: 0%;
+    border-left: 0%;
+    border-right: 0%;
+    border-style: solid;
+    border-color: #595959cc;
+    position: fixed;
+    top: 0;
+}
+.ChangeMode{
+    position: relative;
+}
+.sidenav{
+    font-size: 20px;
+    width: 75%;
+    float: right;
+    padding-top: 35px;
+    padding-right: 0%;
+    padding-left: 0%;
+    
+}
+.sidenav a{
+    padding-left: 0%;
+    padding-right: 3%;
+    float: center;
+    text-decoration: none;
+    color: #111;
+    font-size: 18px;
+}
+body{
+    background-image: url(../img/backgroundDark.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 5%;
+}
+.Text_Dark{
+    background-color: #595959cc ;
+    color: #f1f1f1;
+    text-align: center;
+    display: block;
+    margin-left: 15mm;
+    margin-right: 15mm;
+}
+h1{
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 80px;
+}
+.Kontakt{
+    background-color: #595959cc;
+    color: #f1f1f1;
+    text-align: left;
+    display: block;
+    margin-left: 15mm;
+    margin-right: 15mm;
+
+}
+a:link{
+    color: #f1f1f1;
+    background-color: transparent;
+}
+a:visited{
+    color: #f1f1f1;
+    background-color: transparent;
+}
+.Kontakt_Text{
+    line-height: 5px;
+}
+.fotter{
+    line-height: 50%;
+    color: #f1f1f1;
+    font-size: 15px;
+    padding: 8px 12px;
+    bottom: 8px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+} 
+.RAU{
+    font-size: 50px;
+}
+.Ganob{
+    font-size: 150px;
+}
+
+.navBarColapsed{
+    all: unset;
+    width: 0%;
+}
+
+.closebtn{
+    visibility: hidden;
+}
+.BildR{
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.BildD{
+    padding-top: 300px;
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.Text_Bild{
+    font-size: 20px;
+    text-align: center;
+    background-color:#afababe6 ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    line-height: 50%;
+    border-bottom: 1%;
+    border-top: 0%;
+    border-left: 0%;
+    border-right: 0%;
+    border-style: solid;
+    border-color: #111;
+}
+.Bild_Kontakte{
+    padding-left: 4%;
+    padding-right: 4%;
+    float: left;
+}
+.Social_Media{
+    width: 50px;
+}
+@media screen and (max-width: 250mm){
+    
+    .sidenav {
+        all: unset;
+        height: 100%;
+        width: 0; /*hidden in the biggining*/
+        position: fixed;
+        z-index: 1; /* nach oben orierntiert */
+        top: 0;
+        left: 0;
+        background-color: #111; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    }
+      
+      /* The navigation menu links */
+      .sidenav a {
+        all: unset;
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+      
+      /* When you mouse over the navigation links, change their color */
+      .sidenav a:hover {
+        color: #f1f1f1;
+    }
+    
+      /* Position and style the close button (top right corner) */
+      .sidenav .closebtn {
+        all: unset;
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+      .navBarColapsed{
+        all: unset;
+        height: 100%;
+        width: auto;
+        float: right;
+    }
+}
+.Browser_Info{
+    text-align: center;
+    line-height: 1px;
+    color: #f1f1f1;
+}
